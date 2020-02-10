@@ -1,0 +1,204 @@
+
+
+/* Header CSS */
+header#main-header{
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-navbar.navbar{
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+.gradient{
+    background:linear-gradient(120deg,#7f70f5,#0ea0ff);
+}
+.navbar{
+    padding:.5rem 1rem;
+    height: 80px;
+}
+/* Fim */
+
+/* Home Corpo CSS */
+.corpo{
+    padding-top: 200px;
+    background-color: white;
+}
+.portfolio-block.block-intro p{
+        font-size:1.5em;
+        font-weight:300;
+        margin-bottom:30px;
+}
+.portfolio-block.block-intro{
+        text-align: center;
+}
+/*Fim */
+
+/* Css Projeto */
+.CorpoProjeto{
+    padding-top: 400px;
+}
+#ProjetoTitle{
+    text-align: center;
+    
+}
+/* Css Config Conta */
+.container1{
+    padding-top: 180px;
+}
+
+.login {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.login-wrap {
+    background: darkgrey;
+    padding: calc(50vh - 259px) 70px;
+    overflow: auto;
+    text-align: center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+#signup {
+    display: block;
+    float: left;
+    margin-bottom: 114px;
+}
+
+@media (max-height: 518px) {
+    #signup {
+        margin-bottom: calc((100vh - 404px));
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+#signupbox {
+    display: none;
+    float: left;
+}
+
+.inputfield {
+    height: 35px;
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0);
+    border: white solid 1px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputsubmit {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.inputsubmit:active {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.submitfunc:after {
+    background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) 10px, rgba(0, 0, 0, 0) 10px, rgba(0, 0, 0, 0) 20px);
+    -webkit-animation: AnimationProgress 5s linear infinite;
+    animation: AnimationProgress 5s linear infinite;
+    background-size: 300% 300%;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    transition: all 1s ease-in-out;
+}
+input:focus, button:focus {
+    outline: none;
+}
+@-webkit-keyframes AnimationProgress {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 94% 0%;
+    }
+}
+
+@keyframes AnimationProgress {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 94% 0%;
+    }
+}
+
+.spf {
+    width: 100%;
+    line-height: 20px;
+    margin-top: 30px;
+    color: #fff;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.spf a {
+    width: 100%;
+    float: right;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#avatar{
+    width: 100px;
+    height: 100px;
+}
+#h2daconta{
+color: white;
+}
+#aesqueceusenha{
+    color: white;
+}
+#acriarconta{
+    color: white;
+}
+/* Fim */
+
+/* Css Criar Video Manual */
+.CorpoCVM{
+    padding-top: 280px;
+}
+
+/* Fim */
+
+/* Css Criar Video Automatic */
+.CorpoCVA{
+    padding-top: 280px;
+}
+/* Fim */
